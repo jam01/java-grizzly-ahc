@@ -79,7 +79,7 @@
 		<version.maven-surefire-plugin>2.22.1</version.maven-surefire-plugin>
 		<version.maven-surefire-plugin>2.22.1</version.maven-surefire-plugin>
 		<version.opentracing-api>0.32.0</version.opentracing-api>
-		<version.specialagent>1.1.1</version.specialagent>
+		<version.specialagent>1.2.0-SNAPSHOT</version.specialagent>
 	</properties>
 
 	<dependencies>
@@ -204,7 +204,7 @@
 						</goals>
 						<phase>generate-resources</phase>
 						<configuration>
-							<destFile>${project.build.directory}/generated-resources/fingerprint.bin</destFile>
+							<name>grizzly-ahc</name>
 						</configuration>
 					</execution>
 				</executions>
